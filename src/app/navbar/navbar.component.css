@@ -1,0 +1,90 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #FA944B;
+}
+
+ul {
+    list-style: none;
+}
+
+.dropdown-menu {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+}
+
+.dropdown-menu a {
+    color: #FA944B;
+}
+
+.nav-item {
+    color: #fff;
+}
+
+.nav-item :hover {
+    color: #FA944B;
+}
+
+.navbar .navbar-brand {
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+
+/* logo */
+
+.navbar-brand {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+
+/* navbar toggle */
+
+.navbar-toggler {
+    background: #7FFF00;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+}
+
+.navbar-toggler span+span {
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+
+.navbar-toggler span+span+span {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 2rem 1.2rem;
+    position: relative;
+}
+
+.navbar {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    left: 0;
+    width: 100%;
+    top: 0;
+}
