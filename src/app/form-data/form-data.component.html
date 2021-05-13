@@ -1,6 +1,6 @@
 <div class="container">
     <h3>{{ 'homeForm.title' |translate}}</h3>
-    <form #opinionForm="ngForm" (ngSubmit)="getValues(opinionForm.value)">
+    <form #form="ngForm" name="form" (ngSubmit)="getValues()" [formGroup]="opinionForm" class="needs-validation" novalidate>
         <div class="row head">
             <div class="col-12">{{ 'homeForm.instruct1' |translate}} <strong>Positive</strong> {{ 'homeForm.instruct2' |translate}} <strong>"{{ 'homeForm.choice' |translate}} "</strong> {{ 'homeForm.instruct3' |translate}}
                 <Strong>Negative</Strong> {{ 'homeForm.instruct4' |translate}} <strong>Neutral</strong>. <br> {{ 'homeForm.example' |translate}}
@@ -27,18 +27,26 @@
                 <div class="col-md-12">
                     <div class="form-group">
                         <label for="form_message">{{ 'homeForm.Opinion' |translate}}</label>
-                        <textarea id="form_message" ngModel name="message" class="form-control" placeholder="{{ 'homeForm.CategoryPlaceHolder' |translate}}" rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>
+                        <textarea id="form_message" formControlName="message" name="message" class="form-control" placeholder="{{ 'homeForm.CategoryPlaceHolder' |translate}}" rows="4">
+                        </textarea>
+                    </div>
+                    <div class="invalid-feedback" *ngIf="f?.message?.errors && form.submitted">
+                        {{ 'homeForm.opinionerror' |translate}}
+                    </div>
                 </div>
             </div>
             <div class="col-4">
                 <div class="form-group">
                     <label>{{ 'homeForm.Category' |translate}}</label>
-                    <select class="form-control" ngModel name="sentiment" required="required" data-error="Please specify your need.">
+                    <select class="form-control" formControlName="sentiment" name="sentiment">
                     <option value="" selected disabled>{{ 'homeForm.default' |translate}}</option>
                     <option>{{ 'homeForm.Negative' |translate}}</option>
                     <option>{{ 'homeForm.Neutral' |translate}}</option>
                     <option>{{ 'homeForm.Positive' |translate}}</option>
                     </select>
+                </div>
+                <div class="invalid-feedback" *ngIf="f?.sentiment?.errors && form.submitted">
+                    {{ 'homeForm.sentimenterror' |translate}}
                 </div>
                 <div class="warn">
                     {{ 'homeForm.warning' |translate}}{{ 'homeForm.warning1' |translate}}

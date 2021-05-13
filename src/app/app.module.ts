@@ -17,6 +17,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { ErrorComponent } from './error/error.component';
 import { FormDataComponent } from './form-data/form-data.component';
+import { SavedComponent } from './saved/saved.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FormDataComponent } from './form-data/form-data.component';
     AboutComponent,
     HomeComponent,
     ErrorComponent,
-    FormDataComponent
+    FormDataComponent,
+    SavedComponent
   ],
   imports: [
     BrowserModule,
@@ -43,6 +45,13 @@ import { FormDataComponent } from './form-data/form-data.component';
         deps: [HttpClient]
       }
     })
+  ],
+  exports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

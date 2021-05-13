@@ -1,0 +1,35 @@
+<app-navbar></app-navbar>
+
+<body>
+    <div class="container">
+        <h3>{{ 'saved.title' |translate}}</h3>
+        <div class="row head">
+            <div class="col-12">{{ 'saved.p1' |translate}} {{ 'saved.p2' |translate}} {{ 'saved.p3' |translate}}
+                <strong>{{ 'saved.p4' |translate}}</strong>
+                <br>
+                <br>
+                <br>
+                <h4>{{ 'saved.p5' |translate}}</h4>
+                {{ 'saved.p6' |translate}}
+                <ul>
+                    <li>WhatsaApp</li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>....</li>
+                </ul>
+                <div class="warn">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-s"><input type="submit" class="btn btn-success btn-send pt-2 btn-block" routerLink="/home" value="{{ 'homeForm.addMore' |translate}}"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+
+    </div>
+</body>
+<app-footer></app-footer>

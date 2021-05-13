@@ -42,7 +42,12 @@
         "plh3": "Veuillez entrer votre E-mail",
         "plh4": "Veuillez préciser votre besoin",
         "plh5": "Ecrivez votre message ici.",
-        "btn": "Envoyer le message"
+        "btn": "Envoyer le message",
+        "FirstnameError": "Le prénom est requis.",
+        "LastnameError": "Le nom de famille est requis",
+        "emailError": "Un email valide est requis.",
+        "needError": "Veuillez préciser votre besoin.",
+        "messageError": "Veuillez nous laisser un message."
     },
     "Privacy": {
         "p1": "Termes et conditions",
@@ -72,7 +77,9 @@
         "example": "Exemple: ",
         "pos": "Tous les vaccins sont utiles. Faisons-nous vacciner. ",
         "neg": "Je ne supporte pas les effets secondaires, donc je ne me ferais jamais vacciner. ",
-        "neu": "Que je sois vacciné ou non ne fait aucune différence. "
+        "neu": "Que je sois vacciné ou non ne fait aucune différence. ",
+        "opinionerror": "Veuillez renseigner votre opinion",
+        "sentimenterror": "Veuillez selectioner un sentiment"
     },
     "About": {
         "p1": "MLData est une jeune startup qui aide les chercheurs, les étudiants et les data scientists à collecter des données de qualité.",
@@ -102,5 +109,14 @@
         "ag1": "Toutes les lois européennes applicables en matière de collecte de données s'appliquent à tout utilisateur, prestataire de services, hébergeur et toute autre entreprise ou société impliquée dans le projet MLData.",
         "ag2": "MLData n'utilise pas de cookies sur son site, par conséquent en cas d'exploitation des données par une entité tierce, MLData se dédouane et laisse la juridiction de l'Union européenne s'appliquer face à celle de l'entité concernée.",
         "ag3": "Toutes les autres lois de l'espace européen sont valables pour MLData. Le MLData est principalement soumis aux lois de la République fédérale d 'Allemagne et notamment aux lois du Land de Rhénanie-du-Nord-Westphalie."
+    },
+    "saved": {
+        "title": "Merci beaucoup !",
+        "p1": "Je vous remercie personnellement d'avoir pris le temps de participer à mon projet en me fournissant votre avis.",
+        "p2": "Vous pouvez soumettre autant d'avis que vous le souhaitez.",
+        "p3": "Je vous searais également très reconnaissants si vous m'aidiez à partager cette plateforme afin de permettre à d'autres personnes de votre entourage d'exprimer leurs opinions dans le respect de leur vie privée. ",
+        "p4": "L'objectif est de collecter 40 000 avis.",
+        "p5": "Petite Astuce",
+        "p6": "Si vous partagez avec 50 personnes qui partagent à leur tour avec 50 autres personnes et que chaque personne soumet un avis par jour, nous attendons 75 000 avis au bout de 30 jours. Alors, s'il vous plaît, soutenez-moi en partageant massivement sur toutes les plateformes."
     }
 }

@@ -42,7 +42,12 @@
         "plh3": "Please enter your email",
         "plh4": "Please specify your need",
         "plh5": "Write your message here.",
-        "btn": "Send Message"
+        "btn": "Send Message",
+        "FirstnameError": "Firstname is required.",
+        "LastnameError": "Lastname is required.",
+        "emailError": "Valid email is required.",
+        "needError": "Please specify your need.",
+        "messageError": "Please, leave us a message."
     },
     "Privacy": {
         "p1": "Terms & Conditions",
@@ -72,7 +77,9 @@
         "example": "For example: ",
         "pos": "All vaccines are useful. Let's get vaccinated. ",
         "neg": "I can't stand the side effects, so I would never get vaccinated. ",
-        "neu": "It makes no difference whether I am vaccinated or not. "
+        "neu": "It makes no difference whether I am vaccinated or not. ",
+        "opinionerror": "Please give your opinion",
+        "sentimenterror": "Please select a sentiment"
     },
     "About": {
         "p1": "MLData is a young startup that helps researchers, students and data scientists collect quality data.",
@@ -102,5 +109,14 @@
         "ag1": "All applicable European data collection laws apply to any user, service provider, host and any other company or corporation involved in the MLData project.",
         "ag2": "MLData does not use cookies on its site, therefore in case of data exploitation by a third entity, MLData disclaims and lets the jurisdiction of the European Union apply against that of the concerned entity.",
         "ag3": "All other laws of the European area are valid for MLData. MLData is mainly subject to the laws of the Federal Republic of Germany and in particular to the laws of the state of North Rhine - Westphalia."
+    },
+    "saved": {
+        "title": "Thank you very much!",
+        "p1": "I would like to thank you personally for taking the time to participate in my project by providing your feedback.",
+        "p2": "You can submit as many reviews as you like.",
+        "p3": "I would also be very grateful if you would help me share this platform so that others around you can express their opinions in a way that respects their privacy. ",
+        "p4": "The goal is to collect 40,000 opinions.",
+        "p5": "Little tip",
+        "p6": "If you share with 50 people who in turn share with 50 other people and each person submits one review per day, we expect 75,000 reviews after 30 days. So please support me by sharing massively on all platforms."
     }
 }

@@ -42,7 +42,12 @@
         "plh3": "Bitte E-Mail eingeben",
         "plh4": "Bitte geben Sie Ihr Bedürfnis an",
         "plh5": "Schreiben Sie hier Ihre Nachricht.",
-        "btn": "Nachricht senden"
+        "btn": "Nachricht senden",
+        "FirstnameError": "Vorname ist erforderlich.",
+        "LastnameError": "Nachname ist erforderlich.",
+        "emailError": "Gültige E-Mail ist erforderlich.",
+        "needError": "Bitte geben Sie Ihren Bedarf an.",
+        "messageError": "Bitte, hinterlassen Sie uns eine Nachricht."
     },
     "Privacy": {
         "p1": "Allgemeine Geschäftsbedingungen",
@@ -72,7 +77,9 @@
         "example": "Beispiel: ",
         "pos": "Alle Impfstoffe sind nützlich. Lassen wir uns impfen. ",
         "neg": "Ich kann die Nebenwirkungen nicht ertragen, deshalb würde ich den Impfstoff nie bekommen. ",
-        "neu": "Es macht keinen Unterschied, ob ich geimpft bin oder nicht. "
+        "neu": "Es macht keinen Unterschied, ob ich geimpft bin oder nicht. ",
+        "opinionerror": "Bitte tragen Sie Ihre Meinung ein",
+        "sentimenterror": "Bitte wählen Sie ein Sentiment aus"
     },
     "About": {
         "p1": "MLData ist ein junges Startup, das Forschern, Studenten und Data Scientist hilft, hochwertige Daten zu sammeln.",
@@ -103,5 +110,14 @@
         "ag1": "Alle geltenden europäischen Gesetze zur Datenerhebung gelten für alle Nutzer, Dienstleister, Hoster und alle anderen am MLData-Projekt beteiligten Unternehmen.",
         "ag2": "MLData verwendet auf seiner Seite keine Cookies, daher klärt MLData im Falle einer Datenverwertung durch eine dritte Instanz selbst auf und lässt die Rechtsprechung der Europäischen Union vor derjenigen der betroffenen Instanz gelten.",
         "ag3": "Alle anderen Gesetze des europäischen Raumes sind für MLData gültig. MLData unterliegt im Wesentlichen dem Recht der Bundesrepublik Deutschland und insbesondere dem Recht des Landes Nordrhein-Westfalen."
+    },
+    "saved": {
+        "title": "Vielen Dank!",
+        "p1": "Ich bedanke mich persönlich dafür, dass Sie sich die Zeit genommen haben, an meinem Projekt teilzunehmen, indem Sie mir Ihr Feedback gegeben haben.",
+        "p2": "Sie können so viele Bewertungen abgeben, wie Sie möchten.",
+        "p3": "Ich wäre Ihnen auch sehr dankbar, wenn Sie mir helfen würden, diese Plattform zu teilen, um anderen in Ihrer Umgebung die Möglichkeit zu geben, ihre Meinung auf private Weise zu äußern. ",
+        "p4": "Das Ziel ist es, 40.000 Meinungen zu sammeln.",
+        "p5": "Quick Tip",
+        "p6": "Wenn Sie mit 50 Personen teilen, die wiederum mit 50 anderen Personen teilen und jede Person eine Bewertung pro Tag abgibt, erwarten wir 75.000 Bewertungen nach 30 Tagen. Bitte unterstützen Sie mich also durch massives Teilen auf allen Plattformen."
     }
 }
