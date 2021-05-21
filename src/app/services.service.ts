@@ -6,10 +6,10 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ServicesService {
-
+url:String= "http://apps-env.eba-s5mpenmc.us-east-2.elasticbeanstalk.com";
   constructor(private http: HttpClient ) { }
   postEmail(firstname: string, lastname: string, email: string, need: string, message: string): Observable<any> {
-    return this.http.post<any>("http://localhost:8080/api/contact", {
+    return this.http.post<any>(this.url+"/api/contact", {
       firstname,
       lastname,
       email,
@@ -18,7 +18,7 @@ export class ServicesService {
     })
   }
   postOpinion(message: string, sentiment: string): Observable<any> {
-    return this.http.post<any>("http://localhost:8080/api/opinion", {
+    return this.http.post<any>(this.url+"/api/opinion", {
       message,
       sentiment
     })
