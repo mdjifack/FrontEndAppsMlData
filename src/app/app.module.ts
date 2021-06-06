@@ -41,7 +41,7 @@ import { SavedComponent } from './saved/saved.component';
     TranslateModule.forRoot({
       loader:{
         provide: TranslateLoader,
-        useFactory : HttpLoaderFactory,
+        useFactory : (http:HttpClient) => { return new TranslateHttpLoader(http, './assets/i18n/','.json');},
         deps: [HttpClient]
       }
     })

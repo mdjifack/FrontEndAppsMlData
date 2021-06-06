@@ -82,10 +82,10 @@
         "sentimenterror": "Please select a sentiment"
     },
     "About": {
-        "p1": "MLData is a young startup that helps researchers, students and data scientists collect quality data.",
+        "p1": "MLData is a digital platform that helps researchers, students and data scientists collect quality data.",
         "p2": "Our mission is to gather opinions in a transparent way in order to develop artificial intelligence. In the long run, this is beneficial for the whole of global society.",
-        "p3": "The startup is being created against the backdrop of the global health crisis that has been raging since late 2019.",
-        "p4": "In order to participate in the elaboration of solutions that take into account the opinions of the whole population without distinction of layer and race, Michel Djifack founds MLData on 01 May 2021.",
+        "p3": "The digital platform is being created against the backdrop of the global health crisis that has been raging since late 2019.",
+        "p4": "In order to participate in the elaboration of solutions that take into account the opinions of the whole population without distinction of layer and race, Michel Djifack founds MLData in June 2021.",
         "p5": "He initiated the first action to collect opinions on vaccination against the coronavirus. This data will allow him to develop a sentiment prediction algorithm for his thesis. This algorithm aims to determine who is for, against or without an opinion on the covid19 vaccine based on a given comment.",
         "p6": "Indeed, the algorithm makes the prediction just on the basis of the comment without determining from whom it comes because the personal information of the user at the origin is not collected and is thus not taken in charge by the algorithm. It is impossible to tell who the comment belongs to because everything is anonymous.",
         "p7": "Do not hesitate to contact us to take advantage of our platform and collect your data for your studies or research."
@@ -95,7 +95,7 @@
         "p2": "Any use of the site implies acceptance of these GTC by the user without any reservation or restriction. When filling in the form on the home page of the site, each user expressly accepts these GTC by the following sentence: 'By checking the dedicated box marked: I certify that I have read the GTC and I accept them'.",
         "p3": "In the event of non-acceptance of the GTC stipulated in this contract, the User must give up the access of the services proposed by the site.",
         "p4": "MLData.com reserves the right to modify unilaterally and at any time the contents of the present GTC.",
-        "p5": "MLData ist ein gemeinnütziges akademisches Startup, das im Mai 2021 als Abschlussarbeitsprojekt gegründet wurde. Es wurde von Michel Boris Djifack gegründet und plant, seine Dienste jedem anderen Studenten anzubieten, der die Plattform für akademische Zwecke nutzt, ohne Kosten und ohne finanziellen Nutzen für alle Beteiligten.",
+        "p5": "MLData ist ein gemeinnütziges akademisches digital platform, das im Mai 2021 als Abschlussarbeitsprojekt gegründet wurde. Es wurde von Michel Boris Djifack gegründet und plant, seine Dienste jedem anderen Studenten anzubieten, der die Plattform für akademische Zwecke nutzt, ohne Kosten und ohne finanziellen Nutzen für alle Beteiligten.",
         "agb": "I agree to the storage and processing of my personal data by MLData.",
         "agb1": "I consent to the storage and processing of my data by MLData by continuing to visit the site. click here to view our privacy policy.",
         "agb2": "The host of the MLData website is Amazon Web Services, Inc. based in Seattle, Washington, USA. Browsing our site may result in your data being used indirectly by your browser and associated entities such as Instagram, LinkedIn and Twitter.",

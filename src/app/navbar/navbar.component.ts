@@ -8,13 +8,13 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor ( public translate: TranslateService){
-    translate.addLangs(['en', 'fr', 'de']);
-    translate.setDefaultLang('en');
+  constructor ( private translate: TranslateService){
+    this.translate.addLangs(['en', 'fr', 'de']);
+    this.translate.setDefaultLang('en');
    }
 
    useLanguage(language:string){
-     this.translate.use(language)
+     this.translate.use(language);
    }
   ngOnInit(): void {
   }

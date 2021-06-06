@@ -82,21 +82,20 @@
         "sentimenterror": "Bitte wählen Sie ein Sentiment aus"
     },
     "About": {
-        "p1": "MLData ist ein junges Startup, das Forschern, Studenten und Data Scientist hilft, hochwertige Daten zu sammeln.",
+        "p1": "MLData ist eine digitale Plattform, die Forschern, Studenten und Data Scientist hilft, hochwertige Daten zu sammeln.",
         "p2": "Unsere Mission ist es, auf transparente Weise Meinungen zu sammeln, um künstliche Intelligenz zu entwickeln. Langfristig ist dies für die gesamte globale Gesellschaft von Vorteil.",
-        "p3": "Das Startup wird während einer globalen Gesundheitskrise gegründet, die seit Ende 2019 wütet.",
-        "p4": "Um die Meinung der gesamten Bevölkerung, unabhängig von Klasse und Rasse, bei der Erarbeitung von Lösungen zu berücksichtigen, gründete Michel Djifack am 01. Mai 2021 MLData.",
-        "p5": "Er initiierte damit die erste Aktion zur Sammlung von Meinungen zur Impfung gegen das Coronavirus. Diese Daten werden es ihm ermöglichen, einen Sentiment-Vorhersage-Algorithmus für seine Diplomarbeit zu entwickeln. Dieser Algorithmus zielt darauf ab, aus einem gegebenen Kommentar zu ermitteln, wer für, gegen oder ohne Meinung zum covid19-Impfstoff ist.",
+        "p3": "Diese digitale Plattform wird während einer globalen Gesundheitskrise gegründet, die seit Ende 2019 wütet.",
+        "p4": "Um die Meinung der gesamten Bevölkerung, unabhängig von Klasse und Rasse, bei der Erarbeitung von Lösungen zu berücksichtigen, gründete Michel Djifack im Juni 2021 MLData.",
+        "p5": "Er initiierte damit die erste Aktion zur Sammlung von Meinungen zur Impfung gegen das Coronavirus. Diese Daten werden es ihm ermöglichen, einen Sentiment-Vorhersage-Algorithmus für seine Bachelorarbeit zu entwickeln. Dieser Algorithmus zielt darauf ab, aus einem gegebenen Kommentar zu ermitteln, wer für, gegen oder ohne Meinung zum covid19-Impfstoff ist.",
         "p6": "Allerdings macht der Algorithmus die Vorhersage nur auf der Grundlage des Kommentars, ohne zu bestimmen, von wem er stammt, weil die persönlichen Informationen des Benutzers am Ursprung nicht gesammelt werden und somit vom Algorithmus nicht in die Verantwortung genommen werden. Es ist unmöglich festzustellen, zu wem der Kommentar gehört, da alles anonym ist.",
         "p7": "Zögern Sie nicht, uns zu kontaktieren, um die Vorteile unserer Plattform zu nutzen und Ihre Daten für Ihre Studien oder Forschungen zu sammeln."
-
     },
     "conditions": {
         "p1": "Die vorliegenden allgemeinen Nutzungsbedingungen (nachfolgend ' AGB ' genannt) haben zum Ziel, den rechtlichen Rahmen für die Art und Weise der Bereitstellung der Website und der Dienste durch MLData festzulegen und die Bedingungen für den Zugang und die Nutzung der Dienste durch den 'Nutzer' zu definieren. Die vorliegenden ' AGB ' sind auf der Website unter der Rubrik 'Datenschutz' zugänglich.",
         "p2": "Jede Nutzung der Website setzt die vorbehaltlose und uneingeschränkte Annahme dieser ' AGB '' durch den Nutzer voraus. Beim Ausfüllen des Formulars auf der Startseite der Website akzeptiert jeder Nutzer diese AGB ausdrücklich durch den folgenden Satz: 'Durch Ankreuzen des dafür vorgesehenen Kästchens mit der Aufschrift: Ich bestätige, dass ich die AGB gelesen habe und sie akzeptiere",
         "p3": "Bei Nichtakzeptanz der in diesem Vertrag festgelegten AGB muss der Nutzer auf den Zugang zu den von der Website angebotenen Diensten verzichten.",
         "p4": "MLData.com behält sich das Recht vor, den Inhalt der vorliegenden 'AGB' einseitig und ständig zu ändern.",
-        "p5": "MLData is a non-profit academic startup founded in May 2021 as a thesis project. It is founded by Michel Boris Djifack and plans to offer its services to any other student using the platform for academic purposes, at no cost and with no financial benefit to all parties involved.",
+        "p5": "MLData is a non-profit academic digitale Plattform founded in May 2021 as a thesis project. It is founded by Michel Boris Djifack and plans to offer its services to any other student using the platform for academic purposes, at no cost and with no financial benefit to all parties involved.",
         "agb": "Ich stimme der Speicherung und Verarbeitung meiner persönlichen Daten durch MLData zu.",
         "agb1": "Ich stimme der Speicherung und Verarbeitung meiner Daten durch MLData zu, indem ich die Seite weiter besuche. Klicken Sie hier, um unsere Datenschutzbestimmungen einzusehen.",
         "agb2": "Der Host der MLData-Website ist Amazon Web Services, Inc. mit Sitz in Seattle, Washington, USA. Das Browsen auf unserer Website kann dazu führen, dass Ihre Daten indirekt von Ihrem Browser und verbundenen Unternehmen wie Instagram, LinkedIn und Twitter verwendet werden.",
